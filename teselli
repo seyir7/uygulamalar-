@@ -22,7 +22,7 @@ if "üzgünüm biraz" in cevap.lower():
         '            ,        ,',
         '             ,    ,',
         '              , ,',
-        ' "kendini sev"'
+        ' "kendini sev!"'
     ]
     
     #satır gosterım gecıkmesı
