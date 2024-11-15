@@ -1,3 +1,4 @@
+#ANALOG SAAT UYGULAMASI
 import tkinter as tk
 import time
 import math
@@ -23,7 +24,7 @@ root.geometry("500x500")
 root.resizable(False, False)
 
 # Canvas oluştur
-canvas = tk.Canvas(root, width=500, height=500, bg="white")
+canvas = tk.Canvas(root, width=500, height=500, bg="white")#arka plan değiştirme bg='renk ismi'
 canvas.pack()
 
 # Saatin merkezi ve çapı
