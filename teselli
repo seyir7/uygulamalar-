@@ -1,1 +1,32 @@
+import time
+
+
+cevap = input("Nasılsın? herşey yolunda mı? ")
+
+# üzgğnüm bira cevabını yazınca gösterilen sonuç/efekt
+if "üzgünüm biraz" in cevap.lower():
+    ascii_art = [
+        '          ,   ,             ,  , ',
+        '       ,        ,         ,       , ',
+        '     ,            ,     ,           ,',
+        '    ,              ,   ,             ,',
+        '   ,    elbet        ,               ,',
+        '   ,           bir                   ,',
+        '    ,               gün             ,',
+        '     ,                   düzelir   ,',
+        '      ,                          ,',
+        '       ,                      ,',
+        '        ,                   ,',
+        '         ,               ,',
+        '          ,            ,',
+        '            ,        ,',
+        '             ,    ,',
+        '              , ,',
+        ' "kendini sev"'
+    ]
+    
+    #satır gosterım gecıkmesı
+    for line in ascii_art:
+        print(line)
+        time.sleep(0.1)  # satır, gecikmeli  gosterme süresi
 
